@@ -10,9 +10,9 @@ replicas:
 
 # replace the image tag of the container with stage
 images:
-- digest: sha256:b982388a74e45c2aa13b40fd82a7091a05080e6aa86b8e84535aefca021cb504
+- digest: sha256:908948855e7b0bf6863388976b76caf5a7aad073dab3ce30e59a89db48b2ecfe
   name: quay.io/wdovey/person-service:latest
-  newName: quay.io/wdovey/person-service:v1.7.0-tv
+  newName: quay.io/wdovey/person-service:v1.0.2-test
 
 # generate a configmap 
 configMapGenerator:
